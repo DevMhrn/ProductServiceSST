@@ -24,7 +24,7 @@ class BuildApiApplicationTests {
 
 		Category category = optionalCategory.get();
 		System.out.println("Fetching List of All products for the above of category");
-		List<Product> productList = category.getProducts();gti
+		List<Product> productList = category.getProducts();
 
 
 
