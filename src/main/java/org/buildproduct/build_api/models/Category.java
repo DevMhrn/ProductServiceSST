@@ -16,6 +16,7 @@ public class Category {
     private String category;
     @OneToMany
     //by default fetch type is lazy because we dont want to load all the products when we load the category
+//    @OneToMany(fetch = FetchType.LAZY)
     private List<Product> products;
 
 
